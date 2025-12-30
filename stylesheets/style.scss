@@ -1,0 +1,10 @@
+@import "bootstrap.scss";
+
+#root {
+  display: flex;
+  justify-content: center;
+  height: 100dvh;
+  background-color: $primary-bg-subtle-dark;
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh;
+}

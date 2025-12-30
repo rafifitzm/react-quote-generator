@@ -1,0 +1,31 @@
+{
+  "name": "Optional-02-React-Quote-Generator",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build-bootstrap": "sass stylesheets/bootstrap.scss stylesheets/bootstrap.css",
+    "build:css": "sass stylesheets/style.scss stylesheets/style.css"
+  },
+  "dependencies": {
+    "@babel/core": "7.8",
+    "@babel/eslint-parser": "^7.15.0",
+    "@babel/plugin-proposal-class-properties": "^7.17.12",
+    "@babel/preset-env": "^7.18.2",
+    "@hotwired/stimulus": "^3.0.1",
+    "@hotwired/stimulus-webpack-helpers": "^1.0.1",
+    "babel-loader": "^8.0.4",
+    "bootstrap": "^5.3.8",
+    "chai": "^4.1.0",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.7.0",
+    "mocha": "^8.0",
+    "sass": "^1.97.1",
+    "webpack": "^4.25.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10"
+  },
+  "type": "module",
+  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e"
+}
