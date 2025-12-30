@@ -48,9 +48,8 @@ const App = () => {
 
   return (
     <div id="quoteGeneratorContainer" className="container">
-      {message}
       <Quote quote={currentQuote} />
-      <button className="btn btn-primary">More inspiration</button>
+      <button className="btn btn-primary" onClick={() => getNewQuote(quotes)}>More inspiration</button>
     </div>
   );
 };
